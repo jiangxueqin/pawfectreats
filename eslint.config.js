@@ -18,6 +18,7 @@ export default tseslint.config(
       "react-hooks": reactHooks,
       "react-refresh": reactRefresh,
     },
+    base: '/pawfectreats/',
     rules: {
       ...reactHooks.configs.recommended.rules,
       "no-restricted-imports": [
